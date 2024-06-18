@@ -1,0 +1,6 @@
+@echo off
+title NetTest
+:start
+ping google.com -n 20 >nul
+pause >nul
+exit
